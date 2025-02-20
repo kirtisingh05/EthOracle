@@ -1,1 +1,1 @@
-# AI-Ethereum-price-prediction-DApp
+# AI-Ethereum-price-prediction
