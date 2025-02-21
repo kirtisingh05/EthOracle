@@ -118,7 +118,7 @@ EthOracle/
 ## Screenshots
 
 ![EthOracle Home](https://github.com/user-attachments/assets/7103e0f1-f167-4078-9951-8a3fdd368888)
-![image](https://github.com/user-attachments/assets/b56b87eb-d77e-43c4-9e7f-b570facc8825)
+![image](https://github.com/user-attachments/assets/c8ea5478-2d23-4137-ab8d-d04287f883c9)
 
 *Example of the EthOracle React frontend displaying the predicted price.*
 
