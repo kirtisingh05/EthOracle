@@ -7,3 +7,4 @@ scikit-learn==1.2.2
 click>=8.1
 pandas
 scikit-learn
+gunicorn
