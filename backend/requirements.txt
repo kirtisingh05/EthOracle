@@ -9,3 +9,4 @@ pandas
 matplotlib
 scikit-learn
 gunicorn
+pip install --upgrade setuptools wheel 
