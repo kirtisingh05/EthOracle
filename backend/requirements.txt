@@ -2,8 +2,7 @@ Flask==2.3.3
 flask-cors==3.0.10
 yfinance==0.2.54
 numpy==1.26.0  # Use 1.24.2 to ensure a pre-built wheel is available
-tensorflow==2.18.0
- # tensorflow==2.10.1
+tensorflow==2.18.0 # tensorflow==2.10.1
 scikit-learn==1.2.2
 click>=8.1
 pandas
