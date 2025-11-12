@@ -1,14 +1,20 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Global Styles */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(135deg, #ece9e6, #ffffff);
-  color: #333;
+  background: linear-gradient(135deg, #eef2f3, #ffffff);
+  color: #2c3e50;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* App Container */
 .App {
   display: flex;
   flex-direction: column;
@@ -18,50 +24,83 @@ body {
   padding: 20px;
 }
 
+/* Header Card */
 .App-header {
-  background: #fff;
-  padding: 40px 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-width: 1000px;
+  max-width: 900px;
   width: 100%;
-  border-top: 5px solid #4a90e2;
+  border-top: 6px solid #4a90e2;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.App-header:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Titles */
 .App-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 2.8rem;
+  margin-bottom: 16px;
   font-weight: 700;
-  color: #333;
+  color: #2c3e50;
+  letter-spacing: 1px;
 }
 
 .prediction-section h2 {
-  font-size: 2rem;
-  margin-top: 10px;
+  font-size: 2.2rem;
+  margin-top: 20px;
   color: #4a90e2;
-  animation: pulse 2s infinite;
+  font-weight: 600;
+  animation: pulse 2.5s infinite ease-in-out;
 }
 
+/* Text Elements */
 .prediction-section p,
 .graph-section p {
-  font-size: 1.2rem;
-  color: #666;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
 }
 
 .graph-section h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #333;
+  font-size: 1.6rem;
+  margin: 20px 0 10px;
+  color: #2c3e50;
+  font-weight: 600;
 }
 
+/* Buttons (optional improvement) */
+button {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #3b7ac4;
+  transform: translateY(-2px);
+}
+
+/* Pulse Animation */
 @keyframes pulse {
   0% {
     transform: scale(1);
     opacity: 0.9;
   }
   50% {
-    transform: scale(1.05);
+    transform: scale(1.06);
     opacity: 1;
   }
   100% {
@@ -70,17 +109,26 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+/* Responsive Design */
+@media (max-width: 768px) {
   .App-header {
-    padding: 30px 20px;
+    padding: 35px 25px;
   }
+
   .App-header h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
+
   .prediction-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
+
   .graph-section h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  button {
+    padding: 10px 24px;
+    font-size: 0.95rem;
   }
 }
