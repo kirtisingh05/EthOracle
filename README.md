@@ -121,8 +121,6 @@ EthOracle/
 ![image](https://github.com/user-attachments/assets/c8ea5478-2d23-4137-ab8d-d04287f883c9)
 
 *Example of the EthOracle React frontend displaying the predicted price.*
-
 ## Contact
-
 For questions, suggestions, or contributions, please contact [kirtisingh0543@gmail.com](mailto:kirtisingh0543@gmail.com) or open an issue in the repository.
 *Happy predicting!*
