@@ -127,4 +127,3 @@ EthOracle/
 For questions, suggestions, or contributions, please contact [kirtisingh0543@gmail.com](mailto:kirtisingh0543@gmail.com) or open an issue in the repository.
 
 *Happy predicting!*
-(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)
